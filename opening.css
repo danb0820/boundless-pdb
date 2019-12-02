@@ -1,8 +1,11 @@
+﻿@charset "UTF-8";
 @font-face {
-font-family: "BMDOHYEON";
-src: url("BMDOHYEON_ttf.eot") format("eot"),
-     url("BMDOHYEON_ttf.woff") format("woff"),
-     url("BMDOHYEON_ttf.ttf") format("truetype");
+font-family: 'BMDOHYEON'; 
+src: local(BMDOHYEON),
+     local(BMDOHYEON_ttf),
+     url(BMDOHYEON_ttf.eot) format('eot'),
+     url(BMDOHYEON_ttf.woff) format('woff'),
+     url(BMDOHYEON_ttf.ttf) format('truetype');
 }
 body{
 font-family: "BMDOHYEON";
@@ -15,17 +18,8 @@ font-size:130px;
 color:black;
 float:left;
 position:absolute;
-top:155px;
-left:375px;
-font-style:italic;
-}
-.less{
-font-size:135px;
-color:rgb(162,0,0);
-float:left;
-position:absolute;
-top:145px;
-left:828px;
+top:37%;
+left:21%;
 font-style:italic;
 }
 table{
