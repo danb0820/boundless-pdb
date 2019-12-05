@@ -1,14 +1,18 @@
 ﻿@charset "UTF-8";
 @font-face {
-font-family: 'BMDOHYEON'; 
+font-family: BMDOHYEON; 
 src: local(BMDOHYEON),
      local(BMDOHYEON_ttf),
      url(BMDOHYEON_ttf.eot) format('eot'),
+     url(BMDOHYEON_ttf.eof?#iefix) format('embedded-opentype'),
      url(BMDOHYEON_ttf.woff) format('woff'),
-     url(BMDOHYEON_ttf.ttf) format('truetype');
+     url(BMDOHYEON_ttf.ttf) format('truetype'),
+     url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') 
+     format('woff'); font-weight: normal; font-style: normal;
 }
+
 body{
-font-family: "BMDOHYEON";
+font-family: BMDOHYEON;
 background-size:100%;
 background-repeat:no-repeat;
 line-height:300%;
@@ -26,7 +30,7 @@ right:20px;
 float:right;
 }
 a{
-font-family: "BMDOHYEON";
+font-family: BMDOHYEON;
 color:white;
 }
 a:link{
@@ -42,7 +46,7 @@ a:active{
 text-decoration:none;
 }
 #menu{
-font-family: "BMDOHYEON";
+font-family: BMDOHYEON;
 font-size:40px;
 list-style:none;
 margin:0;
